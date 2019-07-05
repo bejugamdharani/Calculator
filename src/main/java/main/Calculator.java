@@ -39,26 +39,30 @@ public class Calculator {
     {
     	int result=0;
 //        write your code here 
-    	
+    	result=x+y;
         return result;
     }
     public static int sub(int x, int y)
     {
-    	int result=0;
+    	int a;
+    	 a=0;
 //        write your code here
-        return result;
+    	a=x-y;
+        return a;
     }
     public static int mult(int x, int y)
     {
-    	int result=0;
-//      write your code here        
-    	return result;
+    	int a=0;
+//      write your code here  
+    	a=x*y;
+  return a;
     }
     public static int div(int x, int y)
     {
-    	int result=0;
+    	int a=0;
 //      write your code here
-    	return result;
+    	a=x/y;
+    	return a;
     }
 
 }
