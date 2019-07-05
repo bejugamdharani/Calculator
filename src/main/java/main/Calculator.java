@@ -37,10 +37,10 @@ public class Calculator {
     }
     public static int add(int x, int y)
     {
-    	int result=0;
+    	int a=0;
 //        write your code here 
-    	result=x+y;
-        return result;
+    	a=x+y;
+        return a;
     }
     public static int sub(int x, int y)
     {
