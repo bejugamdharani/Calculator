@@ -15,7 +15,7 @@ public class Calculator {
         choose = inp.nextInt();
         switch (choose){
         case 1:
-            System.out.println(add( num1,num2));
+            System.out.println(add( num1, num2));
             break;
         case 2:
             System.out.println(sub( num1,num2));
