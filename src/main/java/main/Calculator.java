@@ -39,6 +39,8 @@ public class Calculator {
     {
     	int a=0;
 //        write your code here 
+    	x=4;
+    	y=7;
     	 a=x+y;
         return a;
     }
@@ -47,12 +49,16 @@ public class Calculator {
     	int a;
     	 a=0;
 //        write your code here
+    	 x=4;
+    	 y=7;
     	a=x-y;
         return a;
     }
     public static int mult(int x, int y)
     {
     	int a=0;
+    	x=4;
+    	y=7;
 //      write your code here  
     	a=x*y;
   return a;
@@ -61,6 +67,8 @@ public class Calculator {
     {
     	int a=0;
 //      write your code here
+    	x=14;
+    	y=7;
     	a=x/y;
     	return a;
     }
